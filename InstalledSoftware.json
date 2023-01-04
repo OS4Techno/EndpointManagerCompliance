@@ -1,0 +1,40 @@
+{
+    "Rules":[ 
+        { 
+           "SettingName":"TrendMicroApexOneSecurityAgent",
+           "Operator":"IsEquals",
+           "DataType":"String",
+           "Operand":"NotInstalled",
+           "RemediationStrings":[ 
+              { 
+                 "Language":"en_US",
+                 "Title":"Trend Micro Apex One Security Agent",
+                 "Description": "Trend Micro Apex One Security Agent not installed."
+              },
+              { 
+                 "Language":"fr_FR",
+                 "Title":"Trend Micro Apex One Security Agent",
+                 "Description": "Trend Micro Apex One Security Agent n'est pas installé"
+              }
+           ]
+        },
+        { 
+           "SettingName":"Darktrace",
+           "Operator":"IsEquals",
+           "DataType":"String",
+           "Operand":"NotInstalled",
+           "RemediationStrings":[ 
+              { 
+                 "Language": "en_US",
+                 "Title": "Darktrace",
+                 "Description": "Darktrace Agent not installed"
+              },
+              { 
+                 "Language":"fr_FR",
+                 "Title":"Darktrace",
+                 "Description": "Darktrace Agent not installed"
+              }
+           ]
+        }
+     ]
+    }
