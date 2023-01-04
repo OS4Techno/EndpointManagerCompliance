@@ -4,7 +4,7 @@
            "SettingName":"TrendMicroApexOneSecurityAgent",
            "Operator":"IsEquals",
            "DataType":"String",
-           "Operand":"NotInstalled",
+           "Operand":"Installed",
            "MoreInfoUrl":"https://os4techno.com",
            "RemediationStrings":[ 
               { 
@@ -23,7 +23,7 @@
            "SettingName":"Darktrace",
            "Operator":"IsEquals",
            "DataType":"String",
-           "Operand":"NotInstalled",
+           "Operand":"Installed",
            "MoreInfoUrl":"https://os4techno.com",
            "RemediationStrings":[ 
               { 
