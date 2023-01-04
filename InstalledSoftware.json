@@ -5,6 +5,7 @@
            "Operator":"IsEquals",
            "DataType":"String",
            "Operand":"NotInstalled",
+           "MoreInfoUrl":"https://os4techno.com",
            "RemediationStrings":[ 
               { 
                  "Language":"en_US",
@@ -23,6 +24,7 @@
            "Operator":"IsEquals",
            "DataType":"String",
            "Operand":"NotInstalled",
+           "MoreInfoUrl":"https://os4techno.com",
            "RemediationStrings":[ 
               { 
                  "Language": "en_US",
