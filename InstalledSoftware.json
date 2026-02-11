@@ -1,7 +1,7 @@
 {
     "Rules":[ 
         { 
-           "SettingName":"TrendMicroApexOneSecurityAgent",
+           "SettingName":"FortiEMS",
            "Operator":"IsEquals",
            "DataType":"String",
            "Operand":"Installed",
@@ -9,18 +9,18 @@
            "RemediationStrings":[ 
               { 
                  "Language":"en_US",
-                 "Title":"Trend Micro Apex One Security Agent",
-                 "Description": "Trend Micro Apex One Security Agent not installed."
+                 "Title":"FortiEMS",
+                 "Description": "FortiEMS not installed."
               },
               { 
                  "Language":"fr_FR",
-                 "Title":"Trend Micro Apex One Security Agent",
-                 "Description": "Trend Micro Apex One Security Agent n'est pas installé"
+                 "Title":"FortiEMS",
+                 "Description": "FortiEMS n'est pas installé"
               }
            ]
         },
         { 
-           "SettingName":"Darktrace",
+           "SettingName":"SentinelOne",
            "Operator":"IsEquals",
            "DataType":"String",
            "Operand":"Installed",
@@ -28,13 +28,13 @@
            "RemediationStrings":[ 
               { 
                  "Language": "en_US",
-                 "Title": "Darktrace",
-                 "Description": "Darktrace Agent not installed"
+                 "Title": "SentinelOne",
+                 "Description": "SentinelOne not installed"
               },
               { 
                  "Language":"fr_FR",
-                 "Title":"Darktrace",
-                 "Description": "Darktrace Agent n'est pas installé"
+                 "Title":"SentinelOne",
+                 "Description": "SentinelOne n'est pas installé"
               }
            ]
         }
