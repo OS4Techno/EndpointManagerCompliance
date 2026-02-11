@@ -9,8 +9,8 @@ Repository: https://github.com/OS4Techno/EndpointManagerCompliance
 #>
 
 $Settings = @{}
-$FortiEMS = "{}"
-$SentinelOne = "{}" 
+$FortiEMS = "{C1534669-99D4-459E-8A05-7CD9FE9CD5BB}"
+$SentinelOne = "{1897C0AD-51C3-45CE-9C79-B7CF93DA8DE8}" 
 $InstalledProduct = (get-wmiobject -class Win32_Product).IdentifyingNumber
 
 If ($FortiEMS -in $InstalledProduct){$Settings.add("FortiEMS","Installed")} else {$Settings.add("FortiEMS","NotInstalled")}
